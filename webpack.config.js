@@ -70,8 +70,8 @@ module.exports = {
     ],
     resolve: {
         alias: {
-            'Common': path.resolve(__dirname, 'src/common/'),
-            'Images': path.resolve(__dirname, 'src/common/img/'),
+            Common: path.resolve(__dirname, 'src/common/'),
+            Images: path.resolve(__dirname, 'src/common/img/'),
         }
     }
 };
