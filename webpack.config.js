@@ -68,6 +68,8 @@ module.exports = {
             template: './src/index.html'
         })
     ],
+    devtool: 'inline-source-map',
+    mode: 'development',
     resolve: {
         alias: {
             Common: path.resolve(__dirname, 'src/common/'),
