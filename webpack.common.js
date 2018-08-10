@@ -17,21 +17,6 @@ module.exports = {
                 use: 'babel-loader'
             },
             {
-                test: /\.scss$/,
-                include: path.resolve(__dirname, 'src'),
-                exclude: /node_modules/,
-                use: [
-                    'style-loader',
-                    {
-                        loader: 'css-loader',
-                        options: { sourceMap: true }
-                    },
-                    {
-                        loader: 'sass-loader',
-                        options: { sourceMap: true }
-                    }]
-            },
-            {
                 test: /\.(png|svg|jpg|gif)$/,
                 exclude: /node_modules/,
                 use: [
