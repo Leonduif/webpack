@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import 'Common/style/common.scss';
-import './App.scss';
 import Monkey from 'Images/monkey.jpg';
 import Random from 'Images/random.png';
 
